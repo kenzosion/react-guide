@@ -7,8 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>HI THERE</h1>
-        <p>This is working woohoo</p>
-        <Person />
+        <p>This is working woohoo, test this out { Math.floor(Math.random() * 30)}</p>
+        <Person name='testing'/>
       </div>
     );
   }
